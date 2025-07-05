@@ -97,7 +97,7 @@ This project uses historical HDB resale transaction data (1990–2020) to build 
 ---
 
 ## 📂 File Structure
-
+```bash
 Kaggle_HDB/
 ├── data/
 │ └── *.csv # Raw and concatenated data files
@@ -105,3 +105,4 @@ Kaggle_HDB/
 │ └── regressor_lr.pkl # Trained model file
 ├── notebook.html # Complete preprocessing & training pipeline
 └── results/ # Performance visuals, logs, coefficients
+```
